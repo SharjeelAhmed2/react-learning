@@ -4,15 +4,23 @@ import './index.css';
 import * as questions from './components/All';
 import * as calculator from './calculator/Calculator';
 import * as cards from './props/Cards';
+import CardArray from './props/CardArray';
 ReactDOM.render(
   <>
-  <cards.default imgSrc="https://cdn.wccftech.com/wp-content/uploads/2018/08/Resident-Evil-2-Remake-Claire-2060x1063.jpg"
-    title="Resident Evil 2 Remake"
-    description="2019 Survival Horror Video Game by Capcom<"
+  <cards.default
+  imgSrc={CardArray[0].imgSrc}
+  title={CardArray[0].title}
+  description={CardArray[0].description}
+   />
+    <cards.default
+  imgSrc={CardArray[1].imgSrc}
+  title={CardArray[1].title}
+  description={CardArray[1].description}
   />
-   <cards.default imgSrc="https://cdn.vox-cdn.com/thumbor/qDUpJWX2EPU6MHZuxmhmStU04h0=/0x0:1920x1080/1400x788/filters:focal(807x387:1113x693):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/53631545/NieR_Automata_201604_SS_2B9S_01_ONLINE.0.jpg"
-    title="Nier Automata"
-    description="2017 Sc-Fi Drama Video Game by SquareEnix"
+    <cards.default
+  imgSrc={CardArray[2].imgSrc}
+  title={CardArray[2].title}
+  description={CardArray[2].description}
   />
   </>
 ,
