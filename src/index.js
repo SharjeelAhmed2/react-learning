@@ -8,17 +8,20 @@ import CardArray from './props/CardArray';
 
 function gCard(val)
 {
-  return(
+  
+}
+ReactDOM.render(
+  <>
+  {CardArray.map((val,index) =>
+  {
+    return(
     <cards.default
     imgSrc={val.imgSrc}
     title={val.title}
     description={val.description}
     />
   );
-}
-ReactDOM.render(
-  <>
-  {CardArray.map(gCard)}
+  })}
   </>
 ,
   document.getElementById('root')
