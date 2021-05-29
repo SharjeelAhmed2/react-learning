@@ -13,6 +13,7 @@ function Division(a,b)
 function Multiplication(a,b)
 {
     let c = a*b;
+    c = c.toFixed(2);
     return c;
 }
 function Subtraction(a,b)
