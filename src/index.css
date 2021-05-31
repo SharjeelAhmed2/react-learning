@@ -63,13 +63,29 @@ background-color: lavender;}
   }
   .button4 {background-color: #e7e7e7; color: black;} /* Gray */   
 
+ .button3 {background-color:white; color:grey;}  
 
 
   .headingTag {
 
-    padding: 40px;
+    padding: 50px;
     text-align: center;
     background: lightgrey;
     color: white;
     font-size: 30px;
+  }
+
+  input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    background-color: white;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .labelInput{
+    text-align: center;
   }
