@@ -8,8 +8,8 @@ import CardArray from './props/CardArray';
 import CardFinish from './CardFinish';
 import * as something from './props/conditional/Input';
 
-import App from './hooks/App';
-
+//import App from './hooks/App';
+import App from './hooks/challenge/App'
 
 ReactDOM.render(
   <>
