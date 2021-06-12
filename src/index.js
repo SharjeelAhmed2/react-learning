@@ -7,14 +7,13 @@ import * as cards from './props/Cards';
 import CardArray from './props/CardArray';
 import CardFinish from './CardFinish';
 import * as something from './props/conditional/Input';
-import App from './SlutMachine/App';
 
+import App from './hooks/App';
 
 
 ReactDOM.render(
   <>
-  {/* <CardFinish /> */}
-  <App/>
+  <App />
 </>,
   document.getElementById('root')
 );

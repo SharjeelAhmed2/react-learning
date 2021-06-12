@@ -89,3 +89,9 @@ background-color: lavender;}
   .labelInput{
     text-align: center;
   }
+
+  .h1Count{
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+  }
