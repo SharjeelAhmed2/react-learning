@@ -10,10 +10,11 @@ import * as something from './props/conditional/Input';
 
 //import App from './hooks/App';
 import App from './hooks/challenge/App'
-
+import Digital from './hooks/Digital';
+import Background from './hooks/BackgroundChange/Background';
 ReactDOM.render(
   <>
-  <App />
+  <Background/>
 </>,
   document.getElementById('root')
 );
