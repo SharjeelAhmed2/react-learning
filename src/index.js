@@ -12,9 +12,10 @@ import * as something from './props/conditional/Input';
 import App from './hooks/challenge/App'
 import Digital from './hooks/Digital';
 import Background from './hooks/BackgroundChange/Background';
+import Form from './form/Form';
 ReactDOM.render(
   <>
-  <Background/>
+  <Form/>
 </>,
   document.getElementById('root')
 );
